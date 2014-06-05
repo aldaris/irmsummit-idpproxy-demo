@@ -8,9 +8,9 @@ This is the demo'd IdP Finder solution implemented for the IdP Proxy Demo perfor
 * compile the project
 * add the class files to WEB-INF/classes (or to WEB-INF/lib if you create a JAR out of it)
 * add the proxyidpfinder.jsp to the OpenAM WAR
-* On the IdP Proxy's admin console go to Federation -> <IdP Proxy entity> -> IDP -> Advanced tab and set the followings:
-** IDP Finder implementation class: org.forgerock.openam.saml2.plugins.DefaultSAML2IdPFinder
-** IDP Finder JSP: /proxyidpfinder.jsp
+* On the IdP Proxy's admin console go to Federation -> &lt;IdP Proxy entity> -> IDP -> Advanced tab and set the followings:
+    * IDP Finder implementation class: org.forgerock.openam.saml2.plugins.DefaultSAML2IdPFinder
+    * IDP Finder JSP: /proxyidpfinder.jsp
 
 And this is it! Once a given SP's request can be forwarded to several different IdPs, this Finder implementation should kick in and allow the user to select their IdP.
 
