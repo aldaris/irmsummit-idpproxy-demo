@@ -35,7 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import static org.forgerock.openam.utils.CollectionUtils.*;
 
-public class DefaultSAML2IdPFinder implements SAML2IDPFinder {
+public class SummitIdPFinder implements SAML2IDPFinder {
 
     private static final String USE_IDP_FINDER = "useIDPFinder";
 
