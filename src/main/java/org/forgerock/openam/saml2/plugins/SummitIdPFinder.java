@@ -25,6 +25,7 @@ import com.sun.identity.saml2.plugins.SAML2IDPFinder;
 import com.sun.identity.saml2.profile.SPCache;
 import com.sun.identity.saml2.protocol.AuthnRequest;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -53,6 +54,7 @@ public class SummitIdPFinder implements SAML2IDPFinder {
         if (proxyIdPs == null || proxyIdPs.isEmpty()) {
             return null;
         }
+        Collections.sort(proxyIdPs);
 
         if (useIdPFinder) {
             String idpFinderJsp = SAML2Utils.getAttributeValueFromSSOConfig(realm, hostedEntityID,
