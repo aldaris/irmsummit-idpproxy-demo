@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityConfig entityID="http://idpproxy.example.com:18080/openam" hosted="false" xmlns="urn:sun:fm:SAML:2.0:entityconfig">
+    <IDPSSOConfig>
+        <Attribute name="assertionEffectiveTime"/>
+        <Attribute name="appLogoutUrl"/>
+        <Attribute name="wantLogoutResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="idpECPSessionMapper"/>
+        <Attribute name="RpUrl"/>
+        <Attribute name="idpAccountMapper"/>
+        <Attribute name="attributeMap"/>
+        <Attribute name="discoveryBootstrappingEnabled"/>
+        <Attribute name="nameIDFormatMap"/>
+        <Attribute name="proxyIDPFinderJSP"/>
+        <Attribute name="autofedAttribute"/>
+        <Attribute name="wantMNIResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="idpAuthncontextClassrefMapping"/>
+        <Attribute name="wantLogoutRequestSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="metaAlias"/>
+        <Attribute name="proxyIDPFinderClass"/>
+        <Attribute name="saeAppSecretList"/>
+        <Attribute name="idpAdapter"/>
+        <Attribute name="signingCertKeyPass"/>
+        <Attribute name="idpAuthncontextMapper"/>
+        <Attribute name="basicAuthOn">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantNameIDEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="idpSessionSyncEnabled"/>
+        <Attribute name="wantMNIRequestSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="basicAuthUser"/>
+        <Attribute name="basicAuthPassword"/>
+        <Attribute name="wantArtifactResolveSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="AuthUrl"/>
+        <Attribute name="saeIDPUrl"/>
+        <Attribute name="assertionCacheEnabled"/>
+        <Attribute name="cotlist">
+            <Value>cot</Value>
+        </Attribute>
+        <Attribute name="assertionNotBeforeTimeSkew"/>
+        <Attribute name="encryptionCertAlias"/>
+        <Attribute name="idpAttributeMapper"/>
+        <Attribute name="enableProxyIDPFinderForAllSPs"/>
+        <Attribute name="signingCertAlias"/>
+        <Attribute name="relayStateUrlList"/>
+        <Attribute name="autofedEnabled"/>
+    </IDPSSOConfig>
+</EntityConfig>

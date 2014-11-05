@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityConfig entityID="http://idp1.example.com:28080/openam" hosted="false" xmlns="urn:sun:fm:SAML:2.0:entityconfig">
+    <IDPSSOConfig>
+        <Attribute name="cotlist">
+            <Value>cot</Value>
+        </Attribute>
+    </IDPSSOConfig>
+</EntityConfig>

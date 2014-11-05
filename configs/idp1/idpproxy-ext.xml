@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityConfig entityID="http://idpproxy.example.com:18080/openam" hosted="false" xmlns="urn:sun:fm:SAML:2.0:entityconfig">
+    <SPSSOConfig>
+        <Attribute name="wantLogoutResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantAttributeEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="spAuthncontextMapper"/>
+        <Attribute name="alwaysIdpProxy"/>
+        <Attribute name="autofedAttribute"/>
+        <Attribute name="spSessionSyncEnabled"/>
+        <Attribute name="spAuthncontextComparisonType"/>
+        <Attribute name="idpProxyList"/>
+        <Attribute name="spDoNotWriteFederationInfo">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantPOSTResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="localAuthURL"/>
+        <Attribute name="wantMNIRequestSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="spAdapterEnv"/>
+        <Attribute name="basicAuthPassword"/>
+        <Attribute name="transientUser"/>
+        <Attribute name="cotlist">
+            <Value>cot</Value>
+        </Attribute>
+        <Attribute name="spAttributeMapper"/>
+        <Attribute name="saeSPUrl"/>
+        <Attribute name="responseArtifactMessageEncoding"/>
+        <Attribute name="useNameIDAsSPUserID"/>
+        <Attribute name="wantAssertionEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="saml2AuthModuleName"/>
+        <Attribute name="signingCertAlias"/>
+        <Attribute name="relayStateUrlList"/>
+        <Attribute name="appLogoutUrl"/>
+        <Attribute name="useIntroductionForIDPProxy"/>
+        <Attribute name="ECPRequestIDPListGetComplete"/>
+        <Attribute name="attributeMap"/>
+        <Attribute name="spAuthncontextClassrefMapping"/>
+        <Attribute name="wantMNIResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantLogoutRequestSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="metaAlias"/>
+        <Attribute name="ECPRequestIDPListFinderImpl"/>
+        <Attribute name="spAccountMapper"/>
+        <Attribute name="spAdapter"/>
+        <Attribute name="ECPRequestIDPList"/>
+        <Attribute name="saeAppSecretList"/>
+        <Attribute name="idpProxyCount"/>
+        <Attribute name="wantArtifactResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="basicAuthOn">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantNameIDEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="basicAuthUser"/>
+        <Attribute name="saeSPLogoutUrl"/>
+        <Attribute name="intermediateUrl"/>
+        <Attribute name="useIDPFinder"/>
+        <Attribute name="encryptionCertAlias"/>
+        <Attribute name="defaultRelayState"/>
+        <Attribute name="assertionTimeSkew"/>
+        <Attribute name="autofedEnabled"/>
+        <Attribute name="enableIDPProxy"/>
+    </SPSSOConfig>
+</EntityConfig>
