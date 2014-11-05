@@ -26,24 +26,23 @@
         <%
             String contextPath = SystemProperties.get(Constants.AM_SERVICES_DEPLOYMENT_DESCRIPTOR);
         %>
-        <link rel="stylesheet/less" type="text/css" href="<%= contextPath %>/XUI/css/styles.less">
-            <script language="javascript" type="text/javascript" src="<%= contextPath %>/XUI/libs/less-1.5.1-min.js"></script>
-            <script language="javascript" type="text/javascript">
-                less.modifyVars({
-                    "@background-image": "url('../images/box-bg.png')",
-                    "@background-position": "950px -100px",
-                    "@footer-background-color": "rgba(238, 238, 238, 0.7)",
-                    "@content-background": "#f9f9f9"
-                });
-            </script>
-
+        <link rel="stylesheet/less" type="text/css" href="<%= contextPath %>/XUI/css/styles.less" />
+        <script language="javascript" type="text/javascript" src="<%= contextPath %>/XUI/libs/less-1.5.1-min.js"></script>
+        <script language="javascript" type="text/javascript">
+            less.modifyVars({
+                "@background-image": "url('../images/box-bg.png')",
+                "@background-position": "950px -100px",
+                "@footer-background-color": "rgba(238, 238, 238, 0.7)",
+                "@content-background": "#f9f9f9"
+            });
+        </script>
     </head>
     <body>
         <div id="wrapper">
             <div id="login-base" class="base-wrapper">
                 <div id="header">
                     <div id="logo" class="float-left">
-                        <a href="" title="ForgeRock"><img src="<%= contextPath %>/XUI/images/logo.png" alt="ForgeRock" /></a>
+                        <a href="" title="ForgeRock"><img src="<%= contextPath %>/XUI/images/logo.png" alt="ForgeRock" style="height: 80px" /></a>
                     </div>
                 </div>
                 <div id="content" class="content">
